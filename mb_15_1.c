@@ -16,7 +16,7 @@ int main(void)
 	int result = search(tablicaTemp, sizeOfArray, valueToFind);
 	(result == -1) ? printf("Element is not present in array.\n") : printf("Element is present at index %d\n", result);
 
-	int result_1 = binarySearch(tablicaTemp, 0, sizeOfArray - 1, 66);	
+	int result_1 = binarySearch(tablicaTemp, 0, sizeOfArray - 1,57);	
 	(result_1 == -1) ? printf("Element is not present in array.\n") : printf("Element is present at index %d\n", result_1);
 
 
